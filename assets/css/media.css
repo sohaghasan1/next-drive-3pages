@@ -1,0 +1,480 @@
+@media(min-width:2500px){
+    .sale_badge {
+        top: 25px;
+        left: -70px;
+        transform: rotate(310deg) translate(-16px, -20px);
+    }
+}
+@media(min-width:1920px){
+    .sale_badge {
+        top: 20px;
+        left: -40px;
+        transform: rotate(310deg) translate(-16px, -20px);
+    }
+    .big_button a{
+        padding: 0 80px;
+    }
+}
+@media(max-width:1024px){
+    .sale_badge {
+        top: 10px;
+        left: -26px;
+    }
+    .top_left_menu li {
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .blog_card {
+        min-height: 220px;
+    }
+    .blog_img {
+        height: 100px;
+    }
+    .blog_content {
+        padding: 10px;
+    }
+    .blog_content h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .blog_content a {
+        font-size: 12px;
+    }
+}
+@media(max-width:991px){
+    .headring_title h4 {
+        font-size: 16px;
+    }
+    .car_icon {
+        font-size: 20px;
+    }
+    .left_sidebar ul li a p {
+        font-size: 14px;
+    }
+    .left_sidebar .brand_logo {
+        margin-right: 5px;
+    }
+    .left_sidebar ul {
+        padding: 0px 5px;
+    }
+    .btn_search {
+        width: 120px;
+    }
+    .big_button a p {
+        font-size: 20px;
+    }
+    .big_button a i {
+        font-size: 40px;
+    }
+    .big_button a img {
+        width: 40px;
+    }
+    .big_button a .arrow i {
+        font-size: 20px;
+    }
+    .big_button a .arrow {
+        width: 30px;
+        height: 30px;
+    }
+    .bid i {
+        margin-right: 15px;
+    }
+    .bid {
+        padding-left: 15px;
+    }
+    .showONMobile {
+        display: block;
+    }
+    .ask-btn{
+        position: static;
+        transform: translate(0px, 0px);
+        width: 200px;
+        margin: auto;
+    }
+   
+}
+@media screen and (max-width: 991px) {
+    .hideonMobile {
+        display: none;
+    }
+}
+@media(max-width:991px)and (min-width:768px){
+    .shadow-effect {
+        padding: 10px;
+    }
+    .offcanvas-start.desktop_hide{
+        display: inherit !important;
+    }
+    #customers-testimonials .item{
+        padding: 10px;
+    }
+    .top_left_menu li {
+        margin-right: 25px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .btn_login{
+        font-size: 10px;
+    }
+    .top_right_menu li label {
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 700;
+        width: 80px;
+    }
+    .top_right_menu li {
+        display: flex;
+        align-items: center;
+    }
+    .sidebar_item a {
+        font-size: 14px;
+    }
+    .popular_lists a {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:767px){
+    .d_flex{
+       justify-content: center;
+    }
+    .top_left_menu li {
+        font-size: 10px;
+        margin-right: 10px;
+        line-height: 20px;
+    }
+    .top_left_menu{
+        justify-content: center;
+    }
+    .top_right_menu{
+        display: none;
+    }
+    .mobile_hide{
+        display: none;
+    }
+    .desktop_hide{
+        display: inherit;
+    }
+    .big_button a .arrow i {
+        font-size: 14px;
+    }
+    .big_button a img {
+        width: 25px;
+    }
+    .big_button a p {
+        font-size: 20px;
+    }
+    .big_button a .arrow {
+        width: 20px;
+        height: 20px;
+    }
+    .big_button a {
+        min-height: 70px;
+    }
+    .big_button {
+        /* padding: 0 20px; */
+    }
+    .heading.desktop_hide{
+        background-color: #fff;
+        display: flex;
+        justify-content: start;
+    }
+    .heading.desktop_hide .car_icon{
+        color: #dc3545;
+    }
+    .heading.desktop_hide .headring_title {
+        color: #000;
+        margin-left: 5px;
+        /* font-size: 30px !important; */
+    }
+    .heading.desktop_hide .headring_title h4{
+        font-size: 20px;
+    }
+    .left_sidebar ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+    .left_sidebar ul li {
+        width: 20%;
+    }
+    .left_sidebar ul li a {
+        display: block;
+        text-align: center;
+    }
+    .left_sidebar .brand_logo {
+        width: 60px;
+        margin-right: 0px;
+        margin: auto;
+    }
+    .blog_card {
+        display: flex;
+        align-items: center;
+        min-height: auto;
+    }
+    .blog_img {
+        height: auto;
+        width: 100%;
+        width: 40%;
+    }
+    .blog_img img {
+        height: auto;
+        object-fit:contain;
+    }
+    .blog_content {
+        padding: 3px 20px;
+        width: 80%;
+    }
+    .blog_content h3 {
+        font-size: 14px;
+        margin-bottom: 0;
+        line-height: 20px;
+    }
+    .readmore{
+        font-size: 12px;
+    }
+    .signup_section label {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .signup_section form {
+        display: flex;
+    }
+    .signup_section input[type='email'] {
+        padding: 7px 5px 10px 10px;
+        width: auto;
+    }
+    .signup_section input[type='submit'] {
+        padding: 0px 15px;
+        font-size: 14px;
+    }
+    .signup_section {
+        background: linear-gradient(270deg, #E82C2D, #E82C2D, #CB0A07, #CB0A07);
+        padding: 50px 0;
+        clip-path: border-box;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .signup_section .container{
+        transform: rotate(1deg);
+        width: 95%;
+        margin: auto;
+    }
+    footer {
+        margin-top: 0px;
+    }
+    .flex{
+        display: flex; 
+        justify-content: space-between;
+    }
+    .flex .ii{
+        width: 48%;
+    }
+    .bid h6 {
+        font-size: 12px;
+    }
+    .big_button a i {
+        font-size: 30px;
+    }
+    .social_icon ul {
+        display: inline-flex;
+    }
+    .blog_card:hover{
+        background-color: transparent;
+        transform: scale(1.05);
+    }
+     .blog_card:hover .blog_content h3{
+        color: #000;
+    }
+    .blog_card:hover .blog_content a{
+        color: #CB0A07;
+    }
+    .plus_icon{
+        display: none;
+    }
+    .signup_section input[type='email']{
+        width: 65%;
+    }
+    .signup_section input[type='submit']{
+        width: 20%;
+    }
+    .slider {
+        margin: 0;
+    }
+    .bid {
+        padding-left: 15px;
+    }
+    .slider-box {
+        margin: 15px auto;
+    }
+    .ui-widget.ui-widget-content {
+        margin-bottom: 10px;
+    }
+
+    .sale_badge {
+        top: 20px;
+        left: -90px;
+    }
+    .showONMobile{
+        opacity: 1;
+        bottom: 30px;
+    }
+    .car-title{
+        position: inherit;
+        margin-top: 30px;
+    }
+    .car-details-title{
+        margin-top: 20px;
+    }
+
+}
+@media(max-width:575px){
+    #customers-testimonials .item {
+      
+        padding: 0px;
+    }
+    .sale_badge {
+        top: 20px;
+        left: -60px;
+    }
+    .signup_section input[type='submit']{
+        width: 25%;
+    }
+    .big_button_block {
+        padding: 20px 0;
+    }
+    .blog_section_title {
+        margin-bottom: 0;
+    }
+
+    .single_person img{
+        width: 100%;
+    }
+    .single_person .col-md-6, .single_person .col-md-5{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .slogan h3 {
+    
+        font-size: 45px;
+    }
+    .slogan h2 {
+        font-size: 40px;
+        width: 88%;
+        line-height: 52px;
+    }
+    .banking_details .deatils_block{
+        margin-bottom: 20px;
+    }
+    .memorable_gallery h2 {
+        font-size: 47px;
+    }
+    .about-details h2 {
+        font-size: 35px;
+        line-height: 50px;
+        margin: 30px 0 20px;
+    }
+    .about-details h3 {
+        margin-top: 30px;
+    }
+    .single_person {
+        margin-bottom: 20px;
+    }
+    .why_choose h2{
+        font-size: 35px;
+    }
+    .banking_details h2{
+        font-size: 40px;
+    }
+}
+@media(max-width:425px){
+    .spec-tb {
+        width: 48% !important;
+    }
+    .signup_section .justify-content-center{
+        justify-content: left !important;
+    }
+    .big_button a img {
+        width: 18px;
+    }
+    .big_button a p {
+        font-size: 14px;
+    }
+    .big_button a .arrow i {
+        font-size: 9px;
+    }
+    .big_button a .arrow {
+        width: 15px;
+        height: 15px;
+    }
+    .bid h6 {
+        font-size: 10px;
+    }
+    .big_button a i {
+        font-size: 18px;
+    }
+    .bid {
+        padding-left: 10px;
+    }
+    .bid i {
+        margin-right: 7px;
+    }
+    .copywrite p{
+        font-size: 14px;
+    }
+    .sale_badge {
+        width: 90%;
+        top: 15px;
+        left: -30px;
+    }
+}
+
+@media(max-width:375px){
+    footer p {
+        font-size: 14px;
+    }
+    .left_sidebar ul li a p {
+        font-size: 12px;
+    }
+    .left_sidebar .brand_logo {
+        width: 40px;
+    }
+    .signup_section input[type='submit']{
+        width: 35%;
+    }
+    .sale_badge {
+        width: 90%;
+        top: 10px;
+        left: -30px;
+        font-size: 12px;
+    }
+    .car_fillter_mobile p {
+        font-size: 15px;
+    }
+    .car_fillter_mobile p img {
+        width: 20px;
+    }
+}
+@media(max-width:320px){
+    .sale_badge {
+        width: 90%;
+        top: 10px;
+        left: -21px;
+        font-size: 12px;
+    }
+    .top_left_menu {
+        flex-wrap: wrap;
+        justify-content: start !important;
+        list-style: none;
+    }
+    .top_left_menu li {
+        line-height: 15px;
+    }
+    .big_button a p {
+        font-size: 10px;
+    }
+    .bid h6 {
+        font-size: 8px;
+    }
+}
+

@@ -1465,7 +1465,7 @@ min-height: 275px;
     margin: 0 5px;
 }
 .time-date li p{
-    color: #fff;
+    color: #cb0a07;
     font-size: 15px;
     font-weight: 900;
 }
@@ -1640,4 +1640,7 @@ min-height: 275px;
 .checkbox label{
     width: 100%;
     margin-left: 10px;
+}
+.top_right_menu li button, .top_right_menu li input{
+    border-radius: 0;
 }

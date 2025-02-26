@@ -1161,7 +1161,7 @@ color: #cb0a07;
     display:flex ;
 }
 .modal-dialog {
-    max-width: 60%;
+    top: 30%;
 }
 .modal-body label {
     font-size: 15px;
@@ -1171,7 +1171,7 @@ color: #cb0a07;
     border-bottom: none;
 }
 .modal-body {
-    padding: 20px 30px 50px;
+    padding: 0
 }
 .modal-body form select option{
     color: #495057;
@@ -1185,13 +1185,21 @@ color: #cb0a07;
 }
 .modal-content{
     border-radius: 0;
-   
+   background-color: transparent !important;
+   border: none;
 }
-.modal-body{
-    transition: .4s all ease-in-out;
+.custom-close{
+    position: absolute;
+    top: -10px;
+    right: 15px;
+    z-index: 8;
+    background-color: #fff;
+    opacity: 1;
+    background-image: none;
+    line-height: 20px;
 }
-.modal-body:hover{
-    transform: scale(1.05);
+.custom-close:hover{
+    background-color: #fff;
 }
 
 

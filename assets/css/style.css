@@ -1656,3 +1656,6 @@ min-height: 275px;
 .search-by-make-btn{
     display: none !important;
 }
+.ceo p{
+    min-height: 308px;
+}

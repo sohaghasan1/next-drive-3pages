@@ -214,6 +214,7 @@
         background-color: #fff;
         display: flex;
         justify-content: start;
+        padding: 5px 15px;
     }
     .heading.desktop_hide .car_icon{
         color: #dc3545;
@@ -366,6 +367,18 @@
 
 }
 @media(max-width:575px){
+    .car-details-title {
+        margin-top: 0px;
+    }
+    .gallery {
+        margin-top: 10px;
+    }
+    .showONMobile {
+        bottom: 20px;
+    }
+    .line {
+        margin-top: -10px !important;
+    }
     .about-details p{
         font-size: 18px;
     }
@@ -418,7 +431,7 @@
     .about-details h2 {
         font-size: 35px;
         line-height: 50px;
-        margin: 30px 0 20px;
+        margin: 0;
     }
     .about-details h3 {
         margin-top: 30px;
@@ -435,7 +448,7 @@
 }
 @media(max-width:425px){
     .spec-tb {
-        width: 48% !important;
+        width: 46% !important;
     }
     .signup_section .justify-content-center{
         justify-content: left !important;

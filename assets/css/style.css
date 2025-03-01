@@ -781,7 +781,7 @@ footer a {
 }
 
 .desktop_hide {
-    display: none;
+    display: none !important;
 }
 
 .car_fillter_mobile {
@@ -1628,7 +1628,7 @@ min-height: 275px;
     background: linear-gradient(to right, #fc061c 1%, #f31824 49%, #ed2229 51%, #ce0d0b 100%);
     padding: 0px 30px !important;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 16px;
     box-shadow: 5px 5px 5px #000000cf !important;
 }
 .spec-tb:hover {

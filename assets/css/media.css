@@ -138,10 +138,10 @@
     .popular_lists a {
         font-size: 14px;
     }
-    
+/*     
     .desktop_hide{
         display: inherit;
-    }
+    }  */
 }
 @media screen and (max-width: 991px) {
     /* .hideonMobile {
@@ -150,9 +150,7 @@
     .mobile_hide{
         display: none !important;
     }
-    .desktop_hide{
-        display: inherit;
-    }
+
     .heading{
         justify-content: flex-start;
         gap: 15px;
@@ -160,9 +158,22 @@
     .gallery {
         margin-top: 20px;
     }
+    .left_sidebar ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+    }
+    .left_sidebar ul li{
+        margin: 10px;
+    }
 }
 @media(max-width:767px){
-    
+    .desktop_hide{
+        display: inherit;
+    }
+    .heading.desktop_hide{
+        display: flex;
+    }
     .d_flex{
        justify-content: center;
     }
@@ -352,6 +363,9 @@
 
 }
 @media(max-width:575px){
+    .left_sidebar ul li{
+        margin: 6px;
+    }
     #customers-testimonials .item {
       
         padding: 0px;

@@ -166,6 +166,9 @@
     .left_sidebar ul li{
         margin: 10px;
     }
+    .search-by-make-btn{
+        display: flex !important;
+    }
 }
 @media(max-width:767px){
     .desktop_hide{
@@ -363,6 +366,12 @@
 
 }
 @media(max-width:575px){
+    .about-details p{
+        font-size: 18px;
+    }
+    .team p {
+        font-size: 18px;
+    }
     .left_sidebar ul li{
         margin: 6px;
     }

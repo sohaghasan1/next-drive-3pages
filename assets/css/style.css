@@ -781,7 +781,7 @@ footer a {
 }
 
 .desktop_hide {
-    display: none !important;
+    display: none;
 }
 
 .car_fillter_mobile {
@@ -1291,6 +1291,7 @@ color: #cb0a07;
     padding: 0;
     font-family: "Bebas Neue", serif;
     color: #090808;
+    font-size: 18px;
 }
 .person_details_bg{
     background-color: #EBEBEB;
@@ -1651,4 +1652,7 @@ min-height: 275px;
 }
 .top_right_menu li button, .top_right_menu li input{
     border-radius: 0;
+}
+.search-by-make-btn{
+    display: none !important;
 }

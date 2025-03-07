@@ -147,6 +147,9 @@
     /* .hideonMobile {
         display: none;
     } */
+    .col-lg-2.col-md-4.col-6.p-1 {
+        flex: 0 0 20%;
+    }
     .mobile_hide{
         display: none !important;
     }
